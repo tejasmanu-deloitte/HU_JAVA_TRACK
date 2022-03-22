@@ -53,13 +53,6 @@ public class Main {
                         valid = res[2];
                     }
 
-//                    if (valid == "valid") {
-//                        System.out.println("Please Login to continue");
-//                        Login log_in = new Login();
-//                        validate = log_in.login_page(username, password);
-//                        break;
-//                    }
-
                     break;
                 }
 
@@ -74,7 +67,6 @@ public class Main {
                     System.out.println("Invalid choice");
             }
 
-//            System.out.println(validate);
             if (validate) {
                 EmpData employee = new EmpData();
 
